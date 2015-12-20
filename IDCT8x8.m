@@ -1,4 +1,4 @@
-function [ intensity_values ] = IDCT8x8( DCT_coefficients )
+function [ intensity_values ] = changeIDCT8x8( DCT_coefficients )
 
 intensity_values = idct( idct(DCT_coefficients)' )';
 
